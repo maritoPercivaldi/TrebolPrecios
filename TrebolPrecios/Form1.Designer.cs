@@ -28,13 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dgvProductos = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvProductos
+            // 
+            this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProductos.Location = new System.Drawing.Point(12, 197);
+            this.dgvProductos.Name = "dgvProductos";
+            this.dgvProductos.RowTemplate.Height = 28;
+            this.dgvProductos.Size = new System.Drawing.Size(1778, 690);
+            this.dgvProductos.TabIndex = 0;
+            
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1802, 1178);
+            this.Controls.Add(this.dgvProductos);
+            this.Name = "Form1";
+            this.ShowIcon = false;
+            this.Text = "Areas Verdes - Control \"Actualización de Precios\"";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dgvProductos;
     }
 }
 

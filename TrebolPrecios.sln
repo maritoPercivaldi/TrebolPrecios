@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrebolPrecios", "TrebolPrecios\TrebolPrecios.csproj", "{EBB1DFDF-FF0D-48D5-BC31-C14C5144465C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{BA49F2E9-1F36-4DC5-8259-7D63466785AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{BF729156-D7BE-402B-B857-86B375978D24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EBB1DFDF-FF0D-48D5-BC31-C14C5144465C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBB1DFDF-FF0D-48D5-BC31-C14C5144465C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBB1DFDF-FF0D-48D5-BC31-C14C5144465C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA49F2E9-1F36-4DC5-8259-7D63466785AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA49F2E9-1F36-4DC5-8259-7D63466785AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA49F2E9-1F36-4DC5-8259-7D63466785AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA49F2E9-1F36-4DC5-8259-7D63466785AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF729156-D7BE-402B-B857-86B375978D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF729156-D7BE-402B-B857-86B375978D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF729156-D7BE-402B-B857-86B375978D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF729156-D7BE-402B-B857-86B375978D24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
